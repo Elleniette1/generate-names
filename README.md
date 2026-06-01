@@ -13,11 +13,11 @@ pip install generate-names
 ### Usage
 
 ```bash
->>> from generate_names import generate
->>> print(generate('male', True))
+>>> from generate_names import generate_name
+>>> print(generate_name('male', True))
 John Smith
->>> print(generate('female', True))
+>>> print(generate_name('female', True))
 Jane Smith
->>> print(generate('', True))
+>>> print(generate_name('', True))
 Smith
 ```
