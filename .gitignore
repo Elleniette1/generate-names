@@ -1,5 +1,8 @@
 # Prerequisites
 *.d
+.vscode/
+dist/
+*.egg-info/
 
 # Compiled Object files
 *.slo
